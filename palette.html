@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Awesome color palette generator </title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="styles.css" type="text/css" rel="stylesheet">
+</head>
+<body class="d-flex flex-column h-100">
+	<main role="main" class="flex-shrink-0">
+		<div class="container">
+			<h2 class="mt-4"> Paleta de colores </h2>
+			<div class="row offset-md-1">
+				<div id="color1" class="color-view col-md-2">
+					Fondo p&aacute;gina
+				</div>
+
+				<div id="color2" class="color-view col-md-2">
+					Texto elementos
+				</div>
+
+				<div id="color3" class="color-view col-md-2">
+					Borde elementos
+				</div>
+
+				<div id="color4" class="color-view col-md-2">
+					Fondo elementos
+				</div>
+
+				<div id="color5" class="color-view col-md-2">
+					Texto encabezado
+				</div>
+			</div>
+
+			<div id="css-rules-div">
+				<h2> Reglas CSS</h2>
+				<div class="col-md-12 text-center">
+					<textarea id="css-rules" class="rules">
+				.website-background{ color: #FFFFFF;}
+
+				.element-text{ color: #FFFFFF;}
+
+				.element-border{ border-color: #FFFFFF;}
+
+				.element-background{ background-color: #FFFFFF;}
+
+				.header{ color: #FFFFFF;}
+			</textarea>
+				</div>
+			</div>
+
+
+			<div class="mt-4 text-center" id="actions">
+				<button id='generarPaleta' class="btn btn-success"> Generar nueva paleta</button>
+				<button id='borrarPaleta'> Limpiar paleta</button>
+			</div>
+		</div>
+		</div>
+		</div>
+	</main>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="chroma.min.js"></script>
+	<script src="chroma.palette-gen.js"></script>
+	<script src="colors.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
