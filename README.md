@@ -14,5 +14,7 @@ Las imágenes tomadas con ResembleJS sobre el ejercicio E2E realizado en tallere
 * El [código fuente](https://github.com/jcardenascAndes93/paletas-colores/tree/main/app-vrt) de la aplicación se encuentra en este repositorio
 * La aplicación corre de manera local, para poder ejecutar la aplicación es necesario abrir la consola y ubicarse en el directorio raíz del proyecto e instalar los paquetes y dependencias ejecutando `npm install`. Una vez realizado el proceso de instalación el comando `npm start` inicia la aplicación en la URL `http://localhost:3000`.
 
+![](taller7.gif)
+
 ## Preguntas
 Las preguntas se encuentran resueltas en la [Wiki](https://github.com/jcardenascAndes93/paletas-colores/wiki/Cuestionario) del proyecto
